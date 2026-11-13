@@ -30,7 +30,7 @@ A frontend-only task management app where an admin assigns tasks and employees a
 
 ## Screenshots
 
-![Login](https://github.com/ritesh01-hub/employee-management-system/blob/78fb438f944b020a7191064118f966e03f22a25d/Screenshot%202026-11-13%20151640.png)
+![Login](https://github.com/ritesh01-hub/employee-management-system/blob/03942b26f8538430988281899b6da2db04d93fbf/Screenshot%202026-11-13%20151742.png)
 ![Admin Dashboard](https://github.com/ritesh01-hub/employee-management-system/blob/45da288ee93fb843d01d493044f0710f0254b2bd/Screenshot%202026-11-13%20151608.png)
 ![Employee Dashboard](screenshots/employee-dashboard.png)
 
