@@ -2,7 +2,7 @@
 
 A frontend-only task management app where an admin assigns tasks and employees accept and complete them. Built with React, Vite and Tailwind CSS.
 
-**Live demo:** <your-vercel-link>
+**Live demo:** https://employee-management-system-three-jet.vercel.app/
 
 ## Features
 
