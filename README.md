@@ -1,6 +1,6 @@
 # Employee Management System
 
-A frontend-only task management app where an admin assigns tasks and employees accept and complete them. Built with React, Vite and Tailwind CSS.
+A frontend-only task management app where an admin assigns tasks and employees accept, complete or fail them. Built with React, Vite and Tailwind CSS.
 
 **Live demo:** https://employee-management-system-three-jet.vercel.app/
 
@@ -8,35 +8,37 @@ A frontend-only task management app where an admin assigns tasks and employees a
 
 - Login with separate admin and employee views
 - Admin dashboard to create and assign tasks to employees
-- Employee dashboard to view assigned tasks, accept them and mark them complete
-- Task status tracking (new, accepted, completed)
+- Employee dashboard to view assigned tasks, accept them and mark them complete or failed
+- Task status tracking (new, accepted, completed, failed)
 - Data persisted in the browser using localStorage
-- Responsive UI styled with Tailwind CSS
+- UI styled with Tailwind CSS
 
 ## Tech Stack
 
 - React 19
 - Vite
 - Tailwind CSS v4
-- Context API for auth and task state
+- Context API with custom hooks for auth and task state
 - localStorage for data persistence
 
 ## Demo Credentials
 
-| Role     | Email   | Password   |
-| -------- | ------- | ---------- |
-| Admin    | <email> | <password> |
-| Employee | <email> | <password> |
+| Role     | Email               | Password |
+| -------- | ------------------- | -------- |
+| Admin    | admin@gmail.com     | 123      |
+| Employee | employee1@gmail.com | 123      |
 
 ## Screenshots
 
-<add screenshots of the login page, admin dashboard and employee dashboard>
+![Login](screenshots/login.png)
+![Admin Dashboard]
+![Employee Dashboard](screenshots/employee-dashboard.png)
 
 ## Getting Started
 
 ```bash
-git clone https://github.com/ritesh01-hub/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/ritesh01-hub/employee-management-system.git
+cd employee-management-system
 npm install
 npm run dev
 ```
@@ -54,11 +56,12 @@ npm run preview
 src/
 ├── components/
 │   ├── Auth/            # Login
-│   ├── Dashboard/       # Admin and Employee dashboards
-│   └── TaskList/        # NewTask, AcceptTask, CompleteTask
+│   ├── Dashboard/       # AdminDashboard, EmployeeDashboard
+│   ├── TaskList/        # NewTask, AcceptTask, CompleteTask, FailedTask
+│   └── common/          # Header
 ├── context/             # AuthContext, TaskContext
-├── utils/               # localStorage helpers
-└── pages/
+├── hooks/               # useAuth, useTasks
+└── utils/               # localStorage helpers
 ```
 
 ## Notes
