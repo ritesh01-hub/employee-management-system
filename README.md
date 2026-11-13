@@ -29,9 +29,13 @@ A frontend-only task management app where an admin assigns tasks and employees a
 | Employee | employee1@gmail.com | 123      |
 
 ## Screenshots
-
+### Login
 ![Login](https://github.com/ritesh01-hub/employee-management-system/blob/03942b26f8538430988281899b6da2db04d93fbf/Screenshot%202026-11-13%20151742.png)
+
+### Admin Dashboard
 ![Admin Dashboard](https://github.com/ritesh01-hub/employee-management-system/blob/45da288ee93fb843d01d493044f0710f0254b2bd/Screenshot%202026-11-13%20151608.png)
+
+### Employee Dashboard
 ![Employee Dashboard](https://github.com/ritesh01-hub/employee-management-system/blob/f423b54f410bc9919359eb00cacf29112aad6f0b/Screenshot%202026-11-13%20151640.png)
 
 ## Getting Started
